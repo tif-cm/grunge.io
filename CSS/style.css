@@ -33,7 +33,7 @@ body {
     /* Gradient overlay + Background Image */
     background-image: 
         linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.4)), 
-        url('../Images/MUDHONEY-01.png');
+        url('https://upload.wikimedia.org/wikipedia/commons/1/17/MUDHONEY_MANCHESTER01.png?');
     
     background-size: cover;
     background-position: top;
