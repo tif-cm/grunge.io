@@ -22,7 +22,7 @@ body {
 /* --- Hero Section --- */
 .hero {
     text-align: center;
-    padding: 10rem 2rem; /* Increased padding for better header scale */
+    padding: 10rem 2rem; 
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -41,6 +41,24 @@ body {
     color: #ffffff;
 }
 
+/* --- Hero Caption (Below Header) --- */
+.hero-caption {
+    text-align: center;
+    font-size: 0.8rem;
+    color: #555;
+    padding: 10px 20px;
+    font-style: italic;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1); 
+}
+
+.hero-caption a {
+    color: #555;
+    text-decoration: underline;
+}
+
+.hero-caption a:hover {
+    color: var(--brand-blue);
+}
 .hero h1 {
     font-family: 'Archivo Black', sans-serif;
     font-size: clamp(4rem, 8vw, 7rem);
@@ -75,7 +93,7 @@ body {
 .timeline-container {
     max-width: 1000px;
     margin: 0 auto;
-    padding: 8rem 2rem; /* Increased top padding to separate from hero */
+    padding: 8rem 2rem;
     position: relative;
 }
 
@@ -96,7 +114,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: flex-start; 
-    margin-bottom: 12rem; /* Significant spacing for desktop stack */
+    margin-bottom: 12rem;
     position: relative;
 }
 
@@ -108,7 +126,7 @@ body {
     content: '';
     position: absolute;
     left: 50%;
-    top: 35px; /* Aligns dot with the top of the sticky content */
+    top: 35px; 
     width: 24px;
     height: 24px;
     background-color: var(--brand-blue);
@@ -122,7 +140,7 @@ body {
     width: 42%;
     position: -webkit-sticky;
     position: sticky;
-    top: 60px; /* Distance from top during scroll */
+    top: 60px; 
     height: fit-content;
     z-index: 1;
 }
